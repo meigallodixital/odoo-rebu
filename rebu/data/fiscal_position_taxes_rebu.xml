@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+
+    <!-- En REBU la compra es exenta si es particular -->
+    <record id="fptt_rebu_21bc" model="account.fiscal.position.tax.template">
+        <field name="position_id" ref="fp_rebu"/>
+        <field name="tax_src_id" ref="l10n_es.account_tax_template_p_iva21_bc"/>
+        <field name="tax_dest_id" ref="l10n_es.account_tax_template_p_iva0_bc"/>
+    </record>
+
+    <record id="fptt_rebu_4bc" model="account.fiscal.position.tax.template">
+        <field name="position_id" ref="fp_rebu"/>
+        <field name="tax_src_id" ref="l10n_es.account_tax_template_p_iva4_bc"/>
+        <field name="tax_dest_id" ref="l10n_es.account_tax_template_p_iva0_bc"/>
+    </record>
+
+</odoo>
